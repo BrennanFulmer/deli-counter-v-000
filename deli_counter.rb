@@ -6,13 +6,11 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     lined = "The line is currently:"
-
     step = 0
     while step < sized
       lined << " #{step + 1}. #{katz_deli[step]}"
       step += 1
     end
-
     puts lined
   end
 end
