@@ -9,7 +9,7 @@ def line(katz_deli)
 
     step = 0
     while step < sized
-      lined << "#{step}. #{katz_deli[step]}"
+      lined << " #{step + 1}. #{katz_deli[step]}"
       step += 1
     end
 
