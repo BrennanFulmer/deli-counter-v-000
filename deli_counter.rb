@@ -10,6 +10,7 @@ def line(katz_deli)
     step = 0
     while step < sized
       lined << "#{step}. #{katz_deli[step]}"
+      step += 1
     end
 
     puts lined
